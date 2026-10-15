@@ -12,10 +12,10 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 async function startBot() {
   await connectDB();
 
-  // Asosiy menyu va buyruqlar
+
   registerStartHandlers(bot);
 
-  // Matn, rasm va ovozli xabarlar
+
   registerChatHandlers(bot);
 
   // Shikoyat qilish va bloklash
