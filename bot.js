@@ -18,7 +18,7 @@ async function startBot() {
 
   registerChatHandlers(bot);
 
-  // Shikoyat qilish va bloklash
+  
   registerSafetyHandlers(bot);
 
   await bot.launch();
